@@ -17,6 +17,14 @@ export const bannerData = [
         link: `https://tel:+919005722709`
     },
     {
+        title:'🌸 Preserve Your Wedding Vows Forever! 🌸',
+        description:'Turn your Varmala into a stunning resin keepsake, capturing the essence of your special day for a lifetime. 💍 A Beautiful Memory, Sealed in Time! 💍"',
+        images:['/images/banner/varmala.png'],
+        button:'Order Now',
+        discountText:'Buy now Get 10% off',
+        link: `https://tel:+919005722709`
+    },
+    {
         title:'🔑 Carry Your Memories Everywhere! 🔑',
         description:'Personalized resin keychains with names, pictures, or special designs—crafted just for you!',
         images:['/images/banner/key-chain.png'],
