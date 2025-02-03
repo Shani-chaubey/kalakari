@@ -13,8 +13,8 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "techbazer",
-  description: "your ultimate gadgets shop",
+  title: "Kalakari - The creative Hub",
+  description: "Discover beautifully handcrafted resin creations, including personalized keychains, custom wall clocks, resin car stands, preserved varmala frames, and unique gifts. Shop now for premium, customized resin art perfect for every occasion!",
 };
 
 export default function RootLayout({

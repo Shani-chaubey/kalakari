@@ -21,6 +21,14 @@ export const productsData = [
         image: "/images/people/person.jpg",
         date: new Date(),
       },
+      {
+        content:
+          "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Distinctio voluptatem aliquam reprehenderit debitis quidem accusantium",
+        rating: 4,
+        author: "Neeraj Pandey",
+        image: "/images/people/person.jpg",
+        date: new Date(),
+      },
     ],
     images: [
       "/images/banner/key-chain.png",
