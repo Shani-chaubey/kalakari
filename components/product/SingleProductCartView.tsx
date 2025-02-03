@@ -13,7 +13,7 @@ const SingleProductCartView = ({ product }: { product: Product }) => {
 
   const router = useRouter();
 
-  const {
+  const { 
     category,
     discount,
     id,
@@ -46,7 +46,7 @@ const SingleProductCartView = ({ product }: { product: Product }) => {
           <Image className="object-contain" src={images[0]} alt={name} fill />
           {stockItems === 0 ? (
             <p className="py-1 px-4 text-sm font-bold rounded-sm bg-rose-500 text-white absolute top-2 right-2">
-              out of stock
+              Made to Order
             </p>
           ) : (
             <p className="py-1 px-4 text-sm font-bold rounded-sm bg-rose-500 text-white absolute top-2 right-2">
@@ -55,9 +55,9 @@ const SingleProductCartView = ({ product }: { product: Product }) => {
           )}
         </div>
       </div>
-      <div className="hidden group-hover:block slideCartOptions absolute top-16 right-2">
+      {/* <div className="hidden group-hover:block slideCartOptions absolute top-16 right-2">
         <ProductOptions product={product} />
-      </div>
+      </div> */}
       <div className="my-2 space-y-1 p-4">
         <p
           onClick={(e) => {
@@ -75,9 +75,9 @@ const SingleProductCartView = ({ product }: { product: Product }) => {
         </h3>
         <RatingReview rating={rating} review={reviews.length} />
         <div className="text-lg font-bold space-x-3 ">
-          <span className="line-through text-muted-foreground">${price}</span>
+          <span className="line-through text-muted-foreground">₹{price}</span>
           <span className="text-xl font-bold text-green-500">
-            ${discountedPrice.toFixed(2)}
+            ₹{discountedPrice.toFixed(2)}
           </span>
         </div>
       </div>

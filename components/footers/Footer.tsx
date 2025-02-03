@@ -1,9 +1,7 @@
-import React from "react";
-import { Separator } from "../ui/separator";
-import { FaFacebook, FaTwitter } from "react-icons/fa6";
-import { FaInstagramSquare } from "react-icons/fa";
-import Link from 'next/link'
 import { dummyCategories } from "@/data/category/categoryData";
+import Link from 'next/link';
+import { FaInstagramSquare } from "react-icons/fa";
+import { FaFacebook, FaTwitter } from "react-icons/fa6";
 import Logo from "../logo/Logo";
 
 
@@ -61,14 +59,14 @@ const Footer = () => {
                 Home
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 href="/about"
                 className=""
               >
                 About Us
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link
                 href="/contact"
@@ -87,7 +85,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col space-y-4">
+        {/* <div className="flex flex-col space-y-4">
           <h3 className="text-xl font-semibold">Support</h3>
           <ul className="space-y-2">
             <li>
@@ -123,11 +121,11 @@ const Footer = () => {
               </Link>
             </li>
           </ul>
-        </div>
+        </div> */}
       </div>
       <hr className="w-full h-[2px] bg-white" />
       <div className="text-center mt-8">
-        <p>&copy; 2024 Your Brand Name. All Rights Reserved.</p>
+        <p>&copy; 2025 Kalakari - The Creative Hub. All Rights Reserved.</p>
       </div>
     </footer>
   );

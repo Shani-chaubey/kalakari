@@ -139,7 +139,7 @@ const FilterProducts = () => {
             max={5000}
             value={maxValue}
           />
-          <p className="text-center text-green-500 text-2xl">${maxValue}</p>
+          <p className="text-center text-green-500 text-2xl">₹{maxValue}</p>
         </div>
       </div>
 
@@ -164,7 +164,7 @@ const FilterProducts = () => {
       </div>
 
       {/* filter by Colors */}
-      <div>
+      {/* <div>
         <h3 className="text-lg font-medium my-2">By Colors</h3>
         <div className="flex items-center justify-start gap-2 flex-wrap">
           {colors.map((color) => (
@@ -184,10 +184,10 @@ const FilterProducts = () => {
             </p>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* filter by Brand name */}
-      <div>
+      {/* <div>
         <h3 className="text-lg font-medium my-2">By Brands</h3>
         <div className="flex items-center justify-start gap-2 flex-wrap">
           {brandsData.map((brand) => (
@@ -203,7 +203,7 @@ const FilterProducts = () => {
             </p>
           ))}
         </div>
-      </div>
+      </div> */}
       <div>
         <Button onClick={clearFilter} variant={"outline"} className="w-full">
           Clear Filter

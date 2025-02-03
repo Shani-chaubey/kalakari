@@ -17,6 +17,14 @@ export const bannerData = [
         link: `https://tel:+919005722709`
     },
     {
+        title:'🚗 Personalized Resin Car Stand – Drive with Style! 🚗',
+        description:'Add a touch of elegance to your car with our custom resin car stands, featuring names, photos, or special designs. ✨ Unique | Durable | Stylish ✨"',
+        images:['/images/banner/car-stand.png'],
+        button:'Order Now',
+        discountText:'Buy now Get 20% off',
+        link: `https://tel:+919005722709`
+    },
+    {
         title:'🌸 Preserve Your Wedding Vows Forever! 🌸',
         description:'Turn your Varmala into a stunning resin keepsake, capturing the essence of your special day for a lifetime. 💍 A Beautiful Memory, Sealed in Time! 💍"',
         images:['/images/banner/varmala.png'],

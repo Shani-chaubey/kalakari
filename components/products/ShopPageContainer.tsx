@@ -38,19 +38,8 @@ const ShopPageContainer = ({
       );
     }
 
-    // Filter by brand
-    if (searchParams.brand) {
-      filteredProducts = filteredProducts.filter(
-        (product) => product?.brand === searchParams.brand
-      );
-    }
-
-    // Filter by color
-    if (searchParams.color) {
-      filteredProducts = filteredProducts.filter((product) =>
-        product?.color.includes(searchParams.color)
-      );
-    }
+   
+    
 
     // Filter by min and max price
     if (searchParams.min && searchParams.max) {
