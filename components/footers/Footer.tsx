@@ -1,54 +1,48 @@
 import { dummyCategories } from "@/data/category/categoryData";
 import Image from "next/image";
-import Link from 'next/link';
+import Link from "next/link";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaFacebook, FaTwitter } from "react-icons/fa6";
-
-
 
 const Footer = () => {
   return (
     <footer className=" bg-gray-700 text-white py-8 px-4 md:px-8">
       <div className="max-w-screen-xl mx-auto p-4 md:p-8 flex md:flex-row  flex-wrap gap-4 md:gap-2 justify-between">
         <div className="flex flex-col space-y-4 mb-8 md:mb-0">
-        <Link href={'/'} className='flex items-center gap-2 mr-3 md:mr-0'>
-          <Image src={'/logo-b.png'} width={100} height={100} alt='brand' className='w-32'/>
-        {/* <p className='text-2xl font-bold'>TechBazer</p> */}
-        </Link>
-          <p>Your one-stop shop for all things electronics.</p>
+          <Link href={"/"} className="flex items-center gap-2 mr-3 md:mr-0">
+            <Image
+              src={"/logo-b.png"}
+              width={100}
+              height={100}
+              alt="brand"
+              className="w-32"
+            />
+            {/* <p className='text-2xl font-bold'>TechBazer</p> */}
+          </Link>
+          <p>
+          Handcrafted resin creations for personalized gifts and décor.
+          </p>
           <div className="flex space-x-4">
-            <Link
-              href="www.facebook.com"
-              className=""
-            >
-              <FaFacebook size={30}/>
+            <Link href="www.facebook.com" className="">
+              <FaFacebook size={30} />
             </Link>
-            <Link
-              href="www.x.com"
-              className=""
-            >
-              <FaTwitter size={30}/>
+            <Link href="www.x.com" className="">
+              <FaTwitter size={30} />
             </Link>
-            <Link
-              href="www.instagram.com"
-              className=""
-            >
-              <FaInstagramSquare size={30}/>
+            <Link href="www.instagram.com" className="">
+              <FaInstagramSquare size={30} />
             </Link>
           </div>
         </div>
         <div className="flex flex-col space-y-4">
           <h3 className="text-xl font-semibold">Categories</h3>
           <ul className="space-y-2">
-            {dummyCategories.map(category => (
+            {dummyCategories.map((category) => (
               <li key={category.name}>
-              <Link
-                href={`/shop?category=${category.name}`}
-                className=""
-              >
-                {category.name}
-              </Link>
-            </li>
+                <Link href={`/shop?category=${category.name}`} className="">
+                  {category.name}
+                </Link>
+              </li>
             ))}
           </ul>
         </div>
@@ -56,10 +50,7 @@ const Footer = () => {
           <h3 className="text-xl font-semibold">Navigation</h3>
           <ul className="space-y-2">
             <li>
-              <Link
-                href="/"
-                className=""
-              >
+              <Link href="/" className="">
                 Home
               </Link>
             </li>
@@ -72,18 +63,12 @@ const Footer = () => {
               </Link>
             </li> */}
             <li>
-              <Link
-                href="/contact"
-                className=""
-              >
+              <Link href="/contact" className="">
                 Contact Us
               </Link>
             </li>
             <li>
-              <Link
-                href="/shop"
-                className=""
-              >
+              <Link href="/shop" className="">
                 Shop
               </Link>
             </li>
