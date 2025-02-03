@@ -10,7 +10,7 @@ import { Input } from '../ui/input';
 // Define Zod schema for form validation
 const schema = z.object({
   name: z.string().min(3,'Name Is Required'),
-  email: z.string().email('Invalid email').min(10, 'Email is Required'),
+  phone: z.string().min(10, 'Phone is Required').max(10, 'Phone is Required'),
   message: z.string().min(5,'Message Is Required'),
 });
 
@@ -51,23 +51,22 @@ const ContactForm: React.FC = () => {
               {errors.name && <span className="text-red-500">{errors.name.message}</span>}
             </div>
             <div>
-              <Label htmlFor="email">Email Address</Label>
+              <Label htmlFor="phone">Phone Number</Label>
               <Input
-                type="email"
+                type="number"
   
-                id="email"
-                autoComplete="email"
+                id="phone"
                 className="mt-1 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 dark:border-gray-600 rounded-md"
-                {...register('email')}
+                {...register('phone')}
               />
-              {errors.email && <span className="text-red-500">{errors.email.message}</span>}
+              {errors.phone && <span className="text-red-500">{errors.phone.message}</span>}
             </div>
             <div>
               <Label htmlFor="message">Message</Label>
               <textarea
                 id="message"
                 className="mt-1 bg-white dark:bg-slate-950 p-2 focus:ring-blue-500 focus:border-blue-500 block w-full shadow-sm sm:text-sm border-gray-300 dark:border-gray-600 rounded-md border"
-                rows={10}
+                rows={3}
                 cols={30}
                 {...register('message')}
               ></textarea>
