@@ -1,56 +1,58 @@
-export const  testinomials = [
-    {
-        id:1,
-        name:'John doe',
-        image:'/images/people/person.jpg',
-        designation:'CEO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
-    },
-    {
-        id:2,
-        name:'Shohag miah',
-        image:'/images/people/person.jpg',
-        designation:'CEO, Binarybard Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
-    },
-    {
-        id:3,
-        name:'janes',
-        image:'/images/people/person.jpg',
-        designation:'CTO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
-    },
-    {
-        id:4,
-        name:'John doe',
-        image:'/images/people/person.jpg',
-        designation:'CEO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
-    },
-    {
-        id:5,
-        name:'John doe',
-        image:'/images/people/person.jpg',
-        designation:'CEO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
-    },
-    {
-        id:6,
-        name:'John doe',
-        image:'/images/people/person.jpg',
-        designation:'CEO, Company Inc.',
-        content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ac
-        orci ac lorem accumsan tristique. Nullam ac tortor a sem tempor
-        faucibus id quis ipsum.`
-    },
-]
+export const testinomials = [
+  {
+    id: 1,
+    name: "Priya Sharma, Mumbai",
+    image: "/images/people/user.png",
+    designation: "Sr. Graphic Designer",
+    content: `Absolutely loved my customized name keychain! The quality is superb, and the glitter detailing is just perfect. Definitely ordering more for my friends!`,
+  },
+  {
+    id: 2,
+    name: "Sneha Iyer, Bangalore",
+    image: "/images/people/user.png",
+    designation: "Content Writer",
+    content: `The ocean wave resin clock is stunning! It gives such a soothing vibe to my living room. Excellent craftsmanship!`,
+  },
+  {
+    id: 3,
+    name: "Rahul Verma, Delhi",
+    image: "/images/people/user.png",
+    designation: "Software Engineer",
+    content: `Ordered a zodiac sign keychain, and it looks so elegant. The resin finish is smooth, and it feels very durable. Highly recommended!`,
+  },
+  {
+    id: 4,
+    name: "Ankit Tiwari, Lucknow",
+    image: "/images/people/user.png",
+    designation: "Marketing Manager",
+    content: `I got a customized nameplate for my car, and it’s just beautiful. The color and finishing are on point. Loved the packaging too!`,
+  },
+  {
+    id: 5,
+    name: "Anushka & Rohit, Jaipur",
+    image: "/images/people/user.png",
+    designation: "Couple",
+    content: `The varmala preservation frame is a masterpiece! I was worried about how it would turn out, but the final product is breathtaking. It’s a forever memory now!`,
+  },
+  {
+    id: 6,
+    name: "Aditi Singh, Kolkata",
+    image: "/images/people/user.png",
+    designation: "Fashion Designer",
+    content: `Ordered a resin jewelry box, and it’s so elegant! The flower detailing inside the resin is just beautiful. Perfect for gifting!`,
+  },
+  {
+    id: 7,
+    name: "Neha Choudhary, Hyderabad",
+    image: "/images/people/user.png",
+    designation: "HR Manager",
+    content: `Absolutely loved our LED varmala frame! The lights make it even more special, and the quality is top-notch. Thank you for making our wedding memories last forever!`,
+  },
+  {
+    id: 8,
+    name: "Vikram Mehta, Ahmedabad",
+    image: "/images/people/user.png",
+    designation: "Architect",
+    content: `The personalized resin nameplate for my desk is amazing! The finishing is premium, and it makes my workspace look stylish. Great work!`,
+  },
+];
