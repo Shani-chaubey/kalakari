@@ -1,12 +1,5 @@
 export const testinomials = [
-  {
-    id: 1,
-    name: "Priya Sharma, Mumbai",
-    image: "/images/people/user.png",
-    designation: "Sr. Graphic Designer",
-    content: `Absolutely loved my customized name keychain! The quality is superb, and the glitter detailing is just perfect. Definitely ordering more for my friends!`,
-  },
-  {
+    {
     id: 2,
     name: "Sneha Iyer, Bangalore",
     image: "/images/people/user.png",
@@ -19,6 +12,13 @@ export const testinomials = [
     image: "/images/people/user.png",
     designation: "Software Engineer",
     content: `Ordered a zodiac sign keychain, and it looks so elegant. The resin finish is smooth, and it feels very durable. Highly recommended!`,
+  },
+  {
+    id: 6,
+    name: "Aditi Singh, Kolkata",
+    image: "/images/people/user.png",
+    designation: "Fashion Designer",
+    content: `Ordered a resin jewelry box, and it’s so elegant! The flower detailing inside the resin is just beautiful. Perfect for gifting!`,
   },
   {
     id: 4,
@@ -35,11 +35,11 @@ export const testinomials = [
     content: `The varmala preservation frame is a masterpiece! I was worried about how it would turn out, but the final product is breathtaking. It’s a forever memory now!`,
   },
   {
-    id: 6,
-    name: "Aditi Singh, Kolkata",
+    id: 1,
+    name: "Priya Sharma, Mumbai",
     image: "/images/people/user.png",
-    designation: "Fashion Designer",
-    content: `Ordered a resin jewelry box, and it’s so elegant! The flower detailing inside the resin is just beautiful. Perfect for gifting!`,
+    designation: "Sr. Graphic Designer",
+    content: `Absolutely loved my customized name keychain! The quality is superb, and the glitter detailing is just perfect. Definitely ordering more for my friends!`,
   },
   {
     id: 7,
